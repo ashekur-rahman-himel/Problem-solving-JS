@@ -9,3 +9,7 @@ for (const num of numbers) {
 }
 // [ 10, 8, 18, 6 ]
 console.log(" the even number is [" + evens + "]");
+
+console.log(" the even number is [" + evens + "]");
+
+console.log(" the even number is [" + evens + "]");
