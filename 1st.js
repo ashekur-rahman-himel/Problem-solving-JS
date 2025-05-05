@@ -206,13 +206,13 @@ users.forEach(user => {
 
  // Closure
 
- function say(){
+ /*function say(){
   var msg = "Hello How are you today"
 
   /* function sayHello(){
     console.log(msg); */
 
-    return function(){
+    /*return function(){
       console.log(msg);
     
 
@@ -223,5 +223,21 @@ users.forEach(user => {
 
  var Option = say();
 
- Option();
+ Option(); */ 
+
+
+
+
+/*  const arr = [3, 1, 4, 2];
+
+ arr.sort()
+ console.log(arr); */
+
+/*  const arr = ['apple', 'banana'];
+
+var arrToUp = String.prototype.toUpperCase.apply(arr).split(",");
+
+ console.log(arrToUp); */
+ 
+
  
