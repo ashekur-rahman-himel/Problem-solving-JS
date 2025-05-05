@@ -204,21 +204,24 @@ users.forEach(user => {
 
 }) */
 
-  let myPromise = new Promise(function(resolve, reject) {
-    let success = true;
-    
-    if (success) {
-      resolve("Data loaded successfully!");
-    } else {
-      reject("Error loading data.");
-    }
-  });
+ // Closure
 
-  myPromise
-  .then(function(result) {
-    console.log(result);  // যদি resolve হয়
-  })
-  .catch(function(error) {
-    console.log(error);   // যদি reject হয়
-  });
+ function say(){
+  var msg = "Hello How are you today"
+
+  /* function sayHello(){
+    console.log(msg); */
+
+    return function(){
+      console.log(msg);
+    
+
+  }
+  //sayHello()   
+  
+ }
+
+ var Option = say();
+
+ Option();
  
