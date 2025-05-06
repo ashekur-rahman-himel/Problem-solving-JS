@@ -238,6 +238,41 @@ users.forEach(user => {
 var arrToUp = String.prototype.toUpperCase.apply(arr).split(",");
 
  console.log(arrToUp); */
+
+
+// Destructuring
  
+/* let person = {
+  name : "Himel",
+  email : "himalhossin@yahoo.com" ,
+  adderss: {
+    city: "Dhaka",
+    country: "Bangladesh"
+  }
+}
+
+let {name, email , adderss : { city, country }} = person;
+
+console.log(name, email, city, country);
+ */
+
+// object to array
+
+/* let obj = {
+  a: 10,
+  b: 20
+}
+ console.log(Object.entries(obj)); */
+ 
+//  array to object
+
+/* let objArr = [
+  ['a', 10],
+  ['b' , 20]
+]
+ console.log(Object.fromEntries(objArr)); */
+
+
+
 
  
