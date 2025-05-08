@@ -67,7 +67,7 @@ dog1.bark();   */
 //   super.method()   parent method
 
 
-class Bird {
+/* class Bird {
     fly() {
       console.log("Bird is flying");
     }
@@ -81,7 +81,11 @@ class Bird {
   }
   
   const e = new Eagle();
-  e.fly();
+  e.fly(); */
+
+
+
+  
 
 
   

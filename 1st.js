@@ -272,7 +272,44 @@ console.log(name, email, city, country);
 ]
  console.log(Object.fromEntries(objArr)); */
 
-
-
-
+/*  try {
+  let result = 10 / 0;
+  let name = undefined;
+  console.log(name.toUpperCase()); // 
+} catch (err) {
+  console.log("Error caught:", err.message);
+}
+ */
+/* try {
+  let age = -5;
+  if (age < 0) {
+    throw new Error("Age can't be negative");
+  }
+} catch (e) {
+  console.log(e.message);
+}
+ */
  
+/* 
+async function fetchData() {
+  try {
+    let res = await fetch("https://api.example.com/data");
+    let data = await res.json();
+    console.log(data);
+  } catch (err) {
+    console.error("Failed to fetch:", err.message);
+  }
+} */
+
+/* 
+  function submitForm(data) {
+    try {
+      if (!data.name) throw new Error("Name is required");
+      if (!data.email.includes("@")) throw new Error("Invalid email");
+      console.log("Form submitted!");
+    } catch (err) {
+      console.warn("Form error:", err.message);
+    }
+  } */
+
+    
