@@ -312,4 +312,31 @@ async function fetchData() {
     }
   } */
 
-    
+    // Data received! 1 sec
+
+/*     function fetchData(callback) {
+  setTimeout(() => {
+    callback("Data received!");
+  }, 1000);
+}
+
+fetchData((data) => {
+  console.log(data); // "Data received!"
+}); */
+
+// Callback older system
+
+function doSomethingAsync(callback) {
+  console.log("Starting task...");
+
+  setTimeout(() => {
+    console.log("Task complete!");
+    callback("Here is your result");
+  }, 2000); 
+}
+
+// Call the function with a callback
+doSomethingAsync(function(result) {
+  console.log("Callback received:", result);
+});
+

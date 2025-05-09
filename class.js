@@ -84,7 +84,15 @@ dog1.bark();   */
   e.fly(); */
 
 
+function fetchData(callback) {
+  setTimeout(() => {
+    callback("Data received!");
+  }, 1000);
+}
 
+fetchData((data) => {
+  console.log(data); // "Data received!"
+});
   
 
 
