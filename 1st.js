@@ -326,7 +326,7 @@ fetchData((data) => {
 
 // Callback older system
 
-function doSomethingAsync(callback) {
+/* function doSomethingAsync(callback) {
   console.log("Starting task...");
 
   setTimeout(() => {
@@ -339,4 +339,8 @@ function doSomethingAsync(callback) {
 doSomethingAsync(function(result) {
   console.log("Callback received:", result);
 });
+ */
+
+document.querySelector("#demo").innerHTML = "P tag"
+
 
