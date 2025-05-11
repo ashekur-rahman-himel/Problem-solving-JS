@@ -341,6 +341,25 @@ doSomethingAsync(function(result) {
 });
  */
 
-document.querySelector("#demo").innerHTML = "P tag"
+// Promise
 
+/* function getIphone(IsPassed){
+  let promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if(IsPassed){
+        resolve("I have Iphone")
+        
+      }else{
+        reject(new Error("You Faild"))
+      }
+      
+    }, 2000);
+  })
+  return promise
+}
 
+getIphone(false).then((res) => {
+  console.log(res);
+}).catch((err) => {
+  console.log(err)
+}) */
