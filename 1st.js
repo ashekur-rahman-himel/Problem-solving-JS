@@ -363,3 +363,22 @@ getIphone(false).then((res) => {
 }).catch((err) => {
   console.log(err)
 }) */
+
+/*   const arr = [1, "Himel", "Dhaka"]
+    const del = delete arr[2]
+    const result = arr.length
+    console.log(result); */  // output =  3
+
+/*     function getDate(){
+      a = 500;
+      console.log(a);
+      
+    }
+
+    getDate()
+    let a   
+
+    output : ReferenceError: Cannot access 'a' before initialization */
+
+    
+    
