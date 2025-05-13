@@ -380,5 +380,31 @@ getIphone(false).then((res) => {
 
     output : ReferenceError: Cannot access 'a' before initialization */
 
+/*     async function quiz1() {
+  return "Done!";
+}
+
+const result = quiz1();
+console.log(result); */
+
+/* async function getValue() {
+  return 42;
+}
+
+async function main() {
+  const val = await getValue();
+  console.log(val);
+}
+
+main(); */
     
+function test(){
+  console.log(arguments);
+  for(var i = 0; i < arguments.length; i++){
+    console.log(arguments[i]);
     
+  }
+  
+}
+test();
+test(10,20,30);
