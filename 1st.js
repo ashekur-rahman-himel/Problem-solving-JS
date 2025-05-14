@@ -398,7 +398,7 @@ async function main() {
 
 main(); */
     
-function test(){
+/* function test(){
   console.log(arguments);
   for(var i = 0; i < arguments.length; i++){
     console.log(arguments[i]);
@@ -408,3 +408,19 @@ function test(){
 }
 test();
 test(10,20,30);
+ */
+
+/* function time(seconds){
+  let promise = new Promise((resolve) => {
+    setTimeout(resolve,seconds)
+
+  })
+  return promise;
+}
+ */
+const time = (seconds) => new Promise((resolve) => setTimeout(resolve,seconds));
+
+time(1000).then(() =>{
+  console.log(" 1 second");
+  
+})
