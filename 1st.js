@@ -418,9 +418,45 @@ test(10,20,30);
   return promise;
 }
  */
-const time = (seconds) => new Promise((resolve) => setTimeout(resolve,seconds));
+/* const time = (seconds) => new Promise((resolve) => setTimeout(resolve,seconds));
 
 time(1000).then(() =>{
   console.log(" 1 second");
   
+}) */
+
+// Simple GET Request
+
+/* fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then(response => 
+
+    response.json()
+
+  ).then(data => 
+
+    console.log(data)
+    ).catch(error => 
+
+    console.error("Custom Error: Something went wrong")
+    ); */
+
+//POST Request
+
+/*     fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    title: 'My Title',
+    body: 'This is the content',
+    id : 1,
+    userId: 2
+  })
 })
+  .then(response => response.json())
+  .then(data => console.log('Created:', data))
+  .catch(error => console.error('Error:', error));
+ */
+
+  
