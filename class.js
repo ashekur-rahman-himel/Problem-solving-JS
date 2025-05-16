@@ -84,7 +84,7 @@ dog1.bark();   */
   e.fly(); */
 
 
-function fetchData(callback) {
+/* function fetchData(callback) {
   setTimeout(() => {
     callback("Data received!");
   }, 1000);
@@ -93,7 +93,43 @@ function fetchData(callback) {
 fetchData((data) => {
   console.log(data); // "Data received!"
 });
-  
+   */
 
+
+/* function Animal(name) {
+  this.name = name;
+}
+
+Animal.prototype.sayHello = function () {
+  console.log(`Hello, I'm ${this.name}`);
+};
+
+const dog = new Animal("Rex");
+dog.sayHello(); */
+
+/* function Animal(name) {
+  this.name = name;
+}
+
+Animal.prototype.sayHello = function () {
+  console.log(`Hello, I'm ${this.name}`);
+};
+
+function Dog(name, breed) {
+  Animal.call(this, name); // Inherit properties
+  this.breed = breed;
+}
+
+// Inherit methods
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog;
+
+Dog.prototype.bark = function () {
+  console.log("Woof!");
+};
+
+const myDog = new Dog("Buddy", "Labrador");
+myDog.sayHello(); // Hello, I'm Buddy
+myDog.bark();    */  // Woof!
 
   
