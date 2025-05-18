@@ -459,4 +459,66 @@ time(1000).then(() =>{
   .catch(error => console.error('Error:', error));
  */
 
+/*   console.log(num);
+   num = 100; */
+
+
+/*    let run = 5;
+   if(run >= 5){
+    console.log("coclate");
+    
+   }else{
+    console.log("vuri");
+    
+   } */
+
+/*     let result = 80;
+    if(result > 80){
+      console.log("bike");
+      
+    }else{
+      console.log(" No Bike");
+      
+    }
+ */
   
+/* 
+    let time = 5;
+    if(time < 9){
+      console.log("Show Movie");
+      
+
+    }else{
+      console.log("Sleep");
+      
+    } */
+
+
+   /*    let temp = 40
+
+      if( temp >= 30){
+        console.log("AC ");
+        
+      }else{
+        console.log("sleep");
+        
+      } */
+
+  /*   const profile = { 
+    name: "Rahim", 
+    age: 28, 
+    city: "Dhaka" 
+  };
+
+  for (const key in profile) {
+   const value = profile[key];
+   console.log(key, value);
+  } */
+
+function length(str){
+  let size = str.length
+  console.log(size , str);
+  
+}
+
+length("bangladesh")
