@@ -515,10 +515,10 @@ time(1000).then(() =>{
    console.log(key, value);
   } */
 
-function length(str){
+/* function length(str){
   let size = str.length
   console.log(size , str);
   
 }
 
-length("bangladesh")
+length("bangladesh") */
