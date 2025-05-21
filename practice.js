@@ -31,14 +31,37 @@ console.log(allPassed); */
 const total = products.reduce((accumolator, current) => accumolator + current.price, 0);
 console.log(total); */
 
-
+/* 
 const movies = ['Jaws', 'Rocky', 'Alien', 'Avatar', 'Coco', 'Up', 'It'];
 const removed = movies.splice(2,3);
 console.log(removed);
-console.log(movies);
+console.log(movies); */
 
 
+function takeOrder (customer, callback){
+    console.log(`Take Order From ${customer}`);
+    callback(customer)
+};
+function processOrder (customer, callback ){
+    console.log(`Processing order for ${customer}`);
+   
+    setTimeout(()=>{
+        console.log('Coocking done!');
+        console.log(`Processed order for ${customer}` );
+        callback(customer)
+    }, 3000); 
+      
+}
 
+
+function completeOrder (customer){
+    console.log(`Completed order for ${customer}`);
+};
+takeOrder ('customer 1', (customer)=>{
+    processOrder (customer, ()=>{
+        completeOrder(customer); 
+    })
+})
 
 
 
