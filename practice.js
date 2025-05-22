@@ -37,7 +37,7 @@ const removed = movies.splice(2,3);
 console.log(removed);
 console.log(movies); */
 
-
+/* 
 function takeOrder (customer, callback){
     console.log(`Take Order From ${customer}`);
     callback(customer)
@@ -62,10 +62,38 @@ takeOrder ('customer 1', (customer)=>{
         completeOrder(customer); 
     })
 })
+ */
+/* let p = {
+job: 'web developer'
+};
+let q = p;
+console.log(p, q);
+q.job = 'front-end developer';
+console.log(p, q);
+ */
+/* function updateJob(person) {
+person.job = 'designer';
+console.log('Inside function:', person);
+}
 
+let employee = { job: 'developer' };
+console.log('Before function call:', employee);
+updateJob(employee);
+console.log('After function call:', employee); */
 
+//call back function
 
+/* function calculate(a,b, cb){
+    const result = a+b
+    cb(result)
+}
 
+function getResult(value){
+    console.log("result is :", value );
+
+    
+}
+calculate(10,20,getResult) */
 
 
 
