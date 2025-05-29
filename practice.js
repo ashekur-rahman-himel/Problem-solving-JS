@@ -107,8 +107,18 @@ const result = multiply(5, 7);
 console.log(result);
 
  */
-let userAge = 0;
+/* let userAge = 0;
 let age = userAge ?? 18;
 console.log(age);
 
 
+ */
+
+
+ const person = {
+  name: "Rahim",
+  age: 25,
+  city: "Dhaka"
+};
+
+const obj = Object.assign()
